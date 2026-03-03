@@ -7,14 +7,14 @@
 
 ### Message Bubbles
 
-- [ ] **BUBBLE-01**: Assistant messages display without the CA avatar circle
-- [ ] **BUBBLE-02**: Assistant messages use a soft indigo-50 background instead of white
-- [ ] **BUBBLE-03**: User messages remain visually unchanged (indigo-600 bubble)
+- [x] **BUBBLE-01**: Assistant messages display without the CA avatar circle
+- [x] **BUBBLE-02**: Assistant messages use a soft indigo-50 background instead of white
+- [x] **BUBBLE-03**: User messages remain visually unchanged (indigo-600 bubble)
 
 ### Input Area
 
-- [ ] **INPUT-01**: Input container displays as an elevated floating card (shadow-lg, rounded-2xl)
-- [ ] **INPUT-02**: Input card lifts off the bottom bar visually (padding/spacing adjusted to feel floating)
+- [x] **INPUT-01**: Input container displays as an elevated floating card (shadow-md, rounded-2xl)
+- [x] **INPUT-02**: Input card lifts off the bottom bar visually (padding/spacing adjusted to feel floating)
 
 ## v2 Requirements
 
@@ -33,17 +33,18 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| BUBBLE-01 | Phase 1 | Pending |
-| BUBBLE-02 | Phase 1 | Pending |
-| BUBBLE-03 | Phase 1 | Pending |
-| INPUT-01 | Phase 1 | Pending |
-| INPUT-02 | Phase 1 | Pending |
+| BUBBLE-01 | Phase 1 | Complete (2026-03-03) |
+| BUBBLE-02 | Phase 1 | Complete (2026-03-03) |
+| BUBBLE-03 | Phase 1 | Complete (2026-03-03) |
+| INPUT-01 | Phase 1 | Complete (2026-03-03) |
+| INPUT-02 | Phase 1 | Complete (2026-03-03) |
 
 **Coverage:**
 - v1 requirements: 5 total
 - Mapped to phases: 5
-- Unmapped: 0 ✓
+- Completed: 5
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-03*
-*Last updated: 2026-03-03 after roadmap creation*
+*Last updated: 2026-03-03 after Phase 1 completion*
