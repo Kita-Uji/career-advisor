@@ -45,6 +45,7 @@ export default async function handler(req, res) {
       'You are a career advisor helping people navigate career transitions.',
       'Draw on the frameworks, principles, and guest insights below to give specific, actionable,',
       'and empathetic guidance.',
+      'Respond in plain text only. Do not use markdown — no bold, italics, headers, bullet lists, or backticks.',
       skillContent && `\n${skillContent}`,
       insightsContent && `\n---\n\n## Full Guest Insights Database\n\n${insightsContent}`,
     ]
