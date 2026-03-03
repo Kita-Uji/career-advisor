@@ -1,16 +1,45 @@
-# React + Vite
+# Career Advisor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered career coaching chat app built with React and the Anthropic API. The assistant draws on insights from 76 product leaders to help users navigate career transitions, evaluate opportunities, and think through their next move.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Streaming chat UI with typing indicator
+- Career-transitions persona and coaching frameworks injected into every system prompt
+- Database of insights from 76 product leaders (guest-insights.md)
+- Falls back to mock streaming responses when no API key is set
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Vite + React
+- Tailwind CSS v4
+- Anthropic SDK (`@anthropic-ai/sdk`)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Create a `.env.local` file in the project root:
+   ```
+   VITE_CLAUDE_API_KEY=sk-ant-...
+   ```
+   Get your key from [console.anthropic.com](https://console.anthropic.com).
+
+3. Start the dev server:
+   ```bash
+   npm run dev
+   ```
+
+If `VITE_CLAUDE_API_KEY` is absent or set to `sk-ant-`, the app runs in mock mode — no API calls are made.
+
+## Commands
+
+```bash
+npm run dev       # Start dev server (Vite HMR)
+npm run build     # Production build
+npm run lint      # ESLint
+npm run preview   # Preview production build
+```
