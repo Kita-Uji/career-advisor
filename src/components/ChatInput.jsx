@@ -26,8 +26,8 @@ export default function ChatInput({ onSend, isStreaming }) {
   }
 
   return (
-    <div className="bg-gray-50 px-4 py-3">
-      <div className="bg-white shadow-lg rounded-2xl px-4 py-3">
+    <div className="bg-gray-50 px-4 pt-3 pb-10">
+      <div className="bg-white shadow-md rounded-2xl px-4 py-3">
         <div className="flex items-end gap-2">
           <textarea
             ref={textareaRef}
@@ -37,7 +37,7 @@ export default function ChatInput({ onSend, isStreaming }) {
             onKeyDown={handleKeyDown}
             placeholder="Ask me anything about your career..."
             disabled={isStreaming}
-            className="flex-1 resize-none border-0 px-0 py-1 text-sm leading-relaxed focus:outline-none focus:ring-0 disabled:opacity-50 overflow-hidden bg-transparent"
+            className="flex-1 resize-none border-0 px-0 py-1 text-base leading-relaxed focus:outline-none focus:ring-0 disabled:opacity-50 overflow-hidden bg-transparent"
             style={{ minHeight: '40px', maxHeight: '120px' }}
           />
           <button
