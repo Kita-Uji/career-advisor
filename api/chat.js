@@ -46,6 +46,7 @@ export default async function handler(req, res) {
       'Draw on the frameworks, principles, and guest insights below to give specific, actionable,',
       'and empathetic guidance.',
       'Respond in plain text only. Do not use markdown — no bold, italics, headers, bullet lists, or backticks.',
+      'Be concise. Give direct answers in 2-4 sentence blocks. Skip preamble. Keep affirmations to a minimum. If you want to answer with comma separated lists, do so in dot points (using hyphens).',
       skillContent && `\n${skillContent}`,
       insightsContent && `\n---\n\n## Full Guest Insights Database\n\n${insightsContent}`,
     ]
