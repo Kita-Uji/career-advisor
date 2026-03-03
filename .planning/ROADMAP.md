@@ -25,7 +25,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Assistant message bubbles show a soft indigo-50 background instead of white
   3. User message bubbles remain visually unchanged (indigo-600 background)
   4. The chat input displays as a floating elevated card with shadow-lg and rounded-2xl, lifted off the bottom bar
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Polish MessageBubble (remove avatar, indigo-50 bg) and ChatInput (elevated card) with human visual verification
 
 ## Progress
 
@@ -34,4 +37,4 @@ Phases execute in numeric order: 1
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. UI Polish | 0/? | Not started | - |
+| 1. UI Polish | 0/1 | Not started | - |
